@@ -1,3 +1,10 @@
+import { Header, Hero, Layout } from '@themovie/base';
+
 export function App() {
-  return <div>Tes</div>;
+  return (
+    <Layout>
+      <Header />
+      <Hero />
+    </Layout>
+  );
 }

@@ -21,7 +21,8 @@
     "noFallthroughCasesInSwitch": true,
     "paths": {
       "@themovie/*": ["./src/*"],
-      "@themovie/base/*": ["./src/base/*"]
+      "@themovie/base/*": ["./src/base/*"],
+      "@themovie/components/*": ["./src/base/presentation/components/*"]
     }
   },
   "include": ["src"],
